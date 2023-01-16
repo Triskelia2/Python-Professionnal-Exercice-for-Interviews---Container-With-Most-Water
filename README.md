@@ -1,13 +1,15 @@
 # Python-Professionnal-Exercice-for-Interviews---Container-With-Most-Water
 
-#print("launched on Anaconda")
-#Conception time and Testing took me 1h222, including understanding the exercice. 
-#Self-critic : 
-  # Implementing the "two loop system" solution was the challenging thing i've faced in this exercice.
-  # Even thought this method is adapted to this exercice, creating a two loop system isn't ideal in terms of complexity, if i had to deal with more results
+*print("launched on Anaconda")
+
+Conception time and Testing took me 1h222, including understanding the exercice. 
+
+Self-critic : 
+Implementing the "two loop system" solution was the challenging thing i've faced in this exercice.
+Even thought this method is adapted to this exercice, creating a two loop system isn't ideal in terms of complexity, if i had to deal with more results
 
 height = [1,8,6,2,5,4,8,3,7]
-class Solution:
+Class Solution:
     def maxArea(self, height: list[int]) -> int:
         gauche=0
         droite=len(height) - 1
@@ -33,4 +35,4 @@ class Solution:
 #for execution
 if __name__ == "__main__": #in case i want to use the class Solution with another file
     Classe1=Solution()
-    print(Classe1.maxArea(height))
+    print(Classe1.maxArea(height))*
